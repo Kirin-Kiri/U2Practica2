@@ -24,5 +24,6 @@ public class Actividad7 {
         int minutos = total / 60; //Convertimos resultado a los minutos
         int segundos = total % 60; //Division por modulo para los segundos
         System.out.println("Duracion total: " + minutos + ":" + String.format("%02d", segundos)); // Muestra minutos y segundos en formato de dos digitos y si falta un digito pone 0 a izquierda
+        scanner.close();
     }
 }

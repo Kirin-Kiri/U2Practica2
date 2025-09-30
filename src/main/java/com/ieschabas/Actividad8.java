@@ -15,5 +15,6 @@ public class Actividad8 {
         String precio = scanner.nextLine(); //Escaneamos al String para poder usar "busqueda por indice"
         int value = precio.indexOf("."); //Saca el indice(posicion) del punto
         System.out.println("Euros: " + precio.substring(0,value) + "\nCentimos: " + precio.substring((value+1))); //Mostramos Euros de posicion 0 hasta posicion del punto, luego mostramos segundos de posicion del punto mas 1 y hasta final
+        scanner.close();
     }
 }

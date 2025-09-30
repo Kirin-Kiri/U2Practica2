@@ -17,5 +17,6 @@ public class Actividad9 {
         String apellido = scanner.nextLine();
 
         System.out.println("Iniciales: " + nombre.substring(0,1).toUpperCase() + "." + apellido.substring(0,1).toUpperCase()); //Mostramos posicion de 0 a 1 del nombre en mayuscula, y apellido posicion de 0 a 1 en mayuscula
+        scanner.close();
     }
 }

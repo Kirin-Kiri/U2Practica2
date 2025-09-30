@@ -19,6 +19,7 @@ public class Actividad10 {
         int anyo = scanner.nextInt();
 
         System.out.println("Fecha: " + anyo + "-" + String.format("%02d", mes) + "-" + String.format("%02d",dia)); //Mostramos años como tal esta, mes en formato de dos digitos, y dia en dos digitos
+        scanner.close();
     }
 
 }
