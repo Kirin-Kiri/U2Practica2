@@ -4,6 +4,8 @@ import java.util.Scanner;
 /**
  * Volumen de un cilindro
  * Pide al usuario el radio y la altura de un cilindro y muestre su volumen.
+ * @author Oleksiy
+ * @version 1.0
  */
 
 public class Actividad6 {
